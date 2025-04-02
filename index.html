@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNC Header</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <!-- Toggle button for mobile -->
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#sidebarMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="	https://hopnhat.com/images/Logo-HNC-TV.png"
+              alt="HNC Logo"
+              class="logo"
+            />
+          </a>
+
+          <!-- Mobile icons -->
+          <div class="mobile-icons d-lg-none">
+            <button class="btn btn-link search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+            <button class="btn btn-link user-btn">
+              <i class="fas fa-user"></i>
+            </button>
+            <div class="language-selector">
+              <img
+                src="https://hopnhat.com/images/vn.png"
+                alt="Vietnamese"
+                class="flag-icon"
+              />
+            </div>
+          </div>
+
+          <!-- Sidebar for mobile -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hỗ trợ khách hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tuyển dụng</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Desktop menu -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Hỗ trợ <i class="fas fa-chevron-down ms-1 nav-arrow"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >CHÍNH SÁCH PICK-UP HÀNG HÓA</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">HƯỚNG DẪN ĐÓNG GÓI</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">THỜI GIAN VẬN CHUYỂN</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">LIÊN HỆ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hỗ trợ khách hàng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tuyển dụng</a>
+              </li>
+            </ul>
+
+            <!-- Right side icons -->
+            <div class="d-flex align-items-center">
+              <button class="btn btn-link search-btn">
+                <i class="fas fa-search"></i>
+              </button>
+              <button class="btn btn-link user-btn">
+                <i class="fas fa-user"></i>
+              </button>
+              <div class="language-selector">
+                <img
+                  src="https://hopnhat.com/images/vn.png"
+                  alt="Vietnamese"
+                  class="flag-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Article Section -->
+    <section class="article">
+      <div class="container-fluid px-0">
+        <div class="article-main">
+          <img
+            src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
+            alt="HNC Article"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h2>VỀ CHÚNG TÔI</h2>
+              <p>
+                Tại HNC, mục tiêu của chúng tôi là cung cấp dịch vụ xuất sắc cho
+                khách hàng và chúng tôi tự hào về sự chuyên nghiệp, tận tâm của
+                mình.
+              </p>
+              <p>
+                Phạm vi dịch vụ của chúng tôi bao gồm nhưng không giới hạn các
+                dịch vụ chuyển phát hàng hóa trong nước, chuyển phát hàng hóa
+                quốc tế, chuyển tiếp hàng hóa, vận chuyển hàng thương mại điện
+                tử, vận chuyển hàng hóa đến kho Amazon, quá cảnh hàng hóa, kho
+                vận, thương mại điện tử và các dịch vụ khác.
+              </p>
+              <a href="#" class="read-more text-end d-block mb-3"
+                >Xem chi tiết</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-video">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/6zFlAbpdQkI"
+                  title="HNC Introduction"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+      <div class="container">
+        <div class="news-header d-flex justify-content-between">
+          <h2>TIN TỨC HỢP NHẤT</h2>
+          <div class="news-filters">
+            <a href="#" class="active">Hero of the month</a>
+            <a href="#">Ưu đãi dịch vụ</a>
+            <a href="#">Xem tất cả</a>
+          </div>
+        </div>
+
+        <div class="news-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="news-main">
+                <img
+                  src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
+                  alt="News Main"
+                />
+                <div class="news-text">
+                  <h3>Tin tức 01- Title</h3>
+                  <p>
+                    Tại HNC, mục tiêu của chúng tôi là cung cấp dịch vụ xuất sắc
+                    cho khách hàng và chúng tôi tự hào về sự chuyên nghiệp, tận
+                    tâm của mình.
+                  </p>
+                  <a href="#" class="read-more">Xem chi tiết</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="news-list">
+                <div class="news-item d-flex">
+                  <img
+                    src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
+                    alt="News Thumbnail"
+                  />
+                  <div class="news-item-text">
+                    <h3>Tin tức 01- Title</h3>
+                    <p>
+                      Tại HNC, mục tiêu của chúng tôi là cung cấp dịch vụ xuất
+                      sắc cho khách hàng và chúng tôi tự hào về sự chuyên
+                      nghiệp, tận tâm
+                    </p>
+                    <a href="#" class="read-more">Xem chi tiết</a>
+                  </div>
+                </div>
+                <div class="news-item d-flex">
+                  <img
+                    src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
+                    alt="News Thumbnail"
+                  />
+                  <div class="news-item-text">
+                    <h3>Tin tức 01- Title</h3>
+                    <p>
+                      Tại HNC, mục tiêu của chúng tôi là cung cấp dịch vụ xuất
+                      sắc cho khách hàng và chúng tôi tự hào về sự chuyên
+                      nghiệp, tận tâm
+                    </p>
+                    <a href="#" class="read-more">Xem chi tiết</a>
+                  </div>
+                </div>
+                <div class="news-item d-flex">
+                  <img
+                    src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
+                    alt="News Thumbnail"
+                  />
+                  <div class="news-item-text">
+                    <h3>Tin tức 01- Title</h3>
+                    <p>
+                      Tại HNC, mục tiêu của chúng tôi là cung cấp dịch vụ xuất
+                      sắc cho khách hàng và chúng tôi tự hào về sự chuyên
+                      nghiệp, tận tâm
+                    </p>
+                    <a href="#" class="read-more">Xem chi tiết</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Partners Section -->
+    <section class="partners">
+      <div class="container">
+        <h2>ĐỐI TÁC CHIẾN LƯỢC</h2>
+        <div class="partner-logos">
+          <img
+            src="https://hopnhat.com/images/wca_logo.png
+          "
+            alt="WCA"
+          />
+          <img
+            src="https://hopnhat.com/images/wca_ecommerce_logo.png"
+            alt="WCA eCommerce"
+          />
+          <img
+            src="	https://hopnhat.com/images/iata_logo.png
+          "
+            alt="OCS"
+          />
+          <img src="https://hopnhat.com/images/logo_ocs.png" alt="IATA" />
+          <img src="https://hopnhat.com/images/logo_amazon.png" alt="Aramex" />
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo -->
+          <div class="col-lg-2">
+            <div class="footer-logo">
+              <img
+                src="https://hopnhat.com/images/Logo-HNC-TV.png"
+                alt="HNC Logo"
+                class="logo-white"
+              />
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-4">
+            <div class="footer-info">
+              <h2>CÔNG TY CP HỢP NHẤT QUỐC TẾ</h2>
+              <p>
+                <i class="fas fa-map-marker-alt"></i>
+                <span
+                  >Tầng 2, Tòa nhà CT4, Vimeco 2, phố Nguyễn Chánh, phường Trung
+                  Hòa, quận Cầu Giấy, thành phố Hà Nội</span
+                >
+              </p>
+              <p>
+                <i class="fas fa-phone"></i>
+                <span>1900 55 88 66</span>
+              </p>
+              <p>
+                <i class="fas fa-envelope"></i>
+                <span>Email: info@hopnhat.com</span>
+              </p>
+              <p>
+                <i class="fas fa-clock"></i>
+                <span
+                  >Thứ 2 - Thứ 6: 8h00 - 12h00, 13h00 - 17h30<br />Thứ 7: 8h00 -
+                  12h00</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- User Guide -->
+          <div class="col-lg-2">
+            <h3>Hướng dẫn sử dụng</h3>
+            <ul class="footer-links">
+              <li><a href="#">Góp ý dịch vụ</a></li>
+              <li><a href="#">Hướng dẫn đóng gói</a></li>
+              <li><a href="#">Gửi hàng trực tuyến</a></li>
+            </ul>
+          </div>
+
+          <!-- Customer Support -->
+          <div class="col-lg-2">
+            <h3>Hỗ trợ khách hàng</h3>
+            <ul class="footer-links">
+              <li><a href="#">Góp ý dịch vụ</a></li>
+              <li><a href="#">Mạng lưới chi nhánh</a></li>
+              <li><a href="#">Chính sách bồi thường</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Follow -->
+          <div class="col-lg-2 social-follow">
+            <h3>Theo dõi chúng tôi</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-telegram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
