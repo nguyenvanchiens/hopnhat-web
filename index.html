@@ -150,15 +150,230 @@
       </nav>
     </header>
 
-    <!-- Article Section -->
-    <section class="article">
+    <!-- Banner Section -->
+    <section class="banner">
       <div class="container-fluid px-0">
-        <div class="article-main">
+        <div class="banner-main">
           <img
             src="https://hopnhat.com/file_contents/upload/img/3-2337.png"
-            alt="HNC Article"
+            alt="HNC banner"
             class="w-100"
           />
+        </div>
+      </div>
+    </section>
+
+     <!-- Order Tracking Section -->
+     <section class="order-tracking py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <h2 class="section-title mb-4 text-primary">
+              Theo dõi đơn hàng của bạn
+            </h2>
+            <div class="tracking-form">
+              <form class="d-flex justify-content-center gap-2">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control tracking-form-input-search"
+                    placeholder="Nhập mã đơn hàng của bạn"
+                    aria-label="Tracking number"
+                  />
+                  <button
+                    class="btn btn-primary tracking-form-search"
+                    type="submit"
+                  >
+                    Theo dõi
+                  </button>
+                </div>
+              </form>
+              <div class="quick-links mt-4">
+                <a href="#" class="btn btn-link active">
+                  <i class="fas fa-file-alt me-2"></i>Ước tính cước phí
+                </a>
+                <div class="quick-links-divider"></div>
+                <a href="#" class="btn btn-link">
+                  <i class="fas fa-box-open me-2"></i>Dịch vụ
+                </a>
+              </div>
+
+              <div class="estimate-form">
+                <div class="estimate-tabs">
+                  <button class="estimate-tab active">
+                    <i class="fas fa-box me-2"></i>Cước phí từ Việt Nam đi nước
+                    ngoài
+                  </button>
+                  <button class="estimate-tab">
+                    <i class="fas fa-box me-2"></i>Cước phí từ Việt Nam đi nước
+                    ngoài
+                  </button>
+                  <button class="estimate-tab">
+                    <i class="fas fa-box me-2"></i>Cước phí trong nước
+                  </button>
+                </div>
+
+                <div class="estimate-content mt-4">
+                  <div class="row g-3">
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Gửi từ<span class="text-danger">*</span></label
+                      >
+                      <select class="form-select" disabled>
+                        <option value="vietnam" selected>Việt Nam</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Tỉnh/thành phố gửi<span class="text-danger"
+                          >*</span
+                        ></label
+                      >
+                      <select class="form-select">
+                        <option selected>Chọn tỉnh/thành phố gửi</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Quận/huyện gửi<span class="text-danger">*</span></label
+                      >
+                      <select class="form-select">
+                        <option selected>Chọn quận/huyện gửi</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Gửi đến<span class="text-danger">*</span></label
+                      >
+                      <select class="form-select">
+                        <option selected>Chọn quốc gia đến</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Tỉnh/thành phố đến<span class="text-danger"
+                          >*</span
+                        ></label
+                      >
+                      <select class="form-select">
+                        <option selected>Chọn tỉnh/thành phố đến</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Mã bưu chính<span class="text-danger">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập mã bưu chính"
+                      />
+                    </div>
+                    <div class="col-md-4">
+                      <label class="form-label"
+                        >Loại hàng hóa<span class="text-danger">*</span></label
+                      >
+                      <div class="shipping-type">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="shippingType"
+                            id="type1"
+                            checked
+                          />
+                          <label class="form-check-label" for="type1"
+                            >Bưu kiện</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="shippingType"
+                            id="type2"
+                          />
+                          <label class="form-check-label" for="type2"
+                            >Tài liệu</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="shippingType"
+                            id="type3"
+                          />
+                          <label class="form-check-label" for="type3"
+                            >Khác</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                      <label class="form-label"
+                        >Nhập loại hàng hóa<span class="text-danger"
+                          >*</span
+                        ></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập loại hàng hóa"
+                      />
+                    </div>
+                    <div class="col-md-3">
+                      <label class="form-label"
+                        >Khối lượng<span class="text-danger">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập trọng lượng hàng"
+                      />
+                    </div>
+                    <div class="col-md-3">
+                      <label class="form-label"
+                        >Chiều dài<span class="text-danger">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập chiều dài"
+                      />
+                    </div>
+                    <div class="col-md-3">
+                      <label class="form-label"
+                        >Chiều rộng<span class="text-danger">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập chiều rộng"
+                      />
+                    </div>
+                    <div class="col-md-3">
+                      <label class="form-label"
+                        >Chiều cao<span class="text-danger">*</span></label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nhập chiều cao"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="text-center mt-4">
+                    <button class="btn btn-primary estimate-form-btn-search">
+                      Tra cứu
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
